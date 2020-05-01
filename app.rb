@@ -20,6 +20,12 @@ class Battle < Sinatra::Base
     erb(:play)
   end 
 
+  post "/confirmation" do
+    erb(:confirm)
+  end 
+
+
+
 
 
 
